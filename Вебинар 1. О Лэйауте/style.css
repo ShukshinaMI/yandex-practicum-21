@@ -1,0 +1,123 @@
+.page {
+    margin: 0;
+    height: 1000vh;
+}
+
+section {
+    box-shadow: 0 0 2px grey;
+ }
+
+ .inline-and-block span {
+    font-size: 40px;
+    background-color: orange;
+    display: block;
+}
+
+.block p {
+    width: 300px;
+    background-color: orange;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+.inline {
+    display: inline;
+}
+   
+.inline-block {
+    display: inline-block;
+    width: 200px;
+}
+
+.flex {
+    background-color: salmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columns p {
+    column-count: 4;
+}
+
+.columns img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    min-height: 500px;
+    gap: 10px;
+}
+  
+.cell {
+    box-shadow: 0 0 2px red;
+}
+  
+.round {
+    left: 20px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.absolute {
+    height: 500px;
+    background-color: lightgreen;
+}
+  
+.red-round {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+ 
+.outer {
+    height: 800px;
+    display: flex;
+    align-items: flex-end;
+    background-color: violet;
+    position: relative;
+}
+
+.blue-round {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+  
+.orange-round {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.sticky {
+    height: 500px;
+    background-color: pink;
+    display: flex;
+    align-items: flex-start;
+}
+
+         
+ 
